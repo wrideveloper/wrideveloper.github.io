@@ -1,0 +1,14 @@
+.profile {
+    background-color:bisque;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    .hr {
+        width: 10px;
+        color: black;
+    }
+}
