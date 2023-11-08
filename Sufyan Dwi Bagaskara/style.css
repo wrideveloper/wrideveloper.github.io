@@ -1,0 +1,13 @@
+#Profil ul {
+    list-style: none;
+    display: table;
+}
+      
+#Profil li {
+    display: table-row;
+}
+      
+#Profil b {
+    display: table-cell;
+    padding-right: 1em;
+}
