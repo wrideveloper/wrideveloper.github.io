@@ -7,14 +7,30 @@ html{
 .img-content{
     width:120px;
     height:150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
 }
 .Header-pertama{
+    text-align: center;
     font-size:30px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 .Header-kedua{
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-
-
+}
+.sosmed{
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: purple;
+}
+.Header-tengah{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
