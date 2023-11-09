@@ -1,0 +1,20 @@
+*, 
+html{
+    margin: 0;
+    padding: 0;
+}
+
+.img-content{
+    width:120px;
+    height:150px;
+}
+.Header-pertama{
+    font-size:30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.Header-kedua{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+
+}
