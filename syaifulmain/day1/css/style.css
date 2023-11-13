@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'JetBrains Mono', monospace;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    background-image: url("../image/bg-deco.svg");
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-color: rgb(15, 9, 19);
+    color: rgb(239, 237, 239);
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+#hero {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap : 3rem;
+    margin-bottom: 150px;
+    margin-top: 200px;
+}
+.hero-right h1 {
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.hero-right h3 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.hero-right h5 {
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+.hero-left img {
+    width: 100%;
+    transition: opacity 500ms ease 0s, transform 500ms ease 0s;
+    transform: rotate(14deg);
+    border-radius: 16px;
+    border: 1px solid rgb(101, 95, 103);
+}
+
+.hero-left {
+    background-image: url("../image/bg-pp.svg");
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+    background-repeat: no-repeat;
+}
+.lore {
+    width: 100%;
+    padding: 48px;
+    transition: all 0.2s ease 0s;
+    background: linear-gradient(156deg, rgba(239, 237, 239, 0.04) 0%, rgba(0, 0, 0, 0.04) 92.3%);
+    border: 1px solid rgb(210, 184, 99);
+    border-radius: 24px;
+    color: rgb(195, 188, 195);
+    margin-bottom: 100px;
+}
+.lore h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+.p-lore {
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+.p-lore p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 900px) {
+    #hero {
+        flex-direction: column;
+        gap: 3rem;
+        margin-bottom: 100px;
+        margin-top: 100px;
+    }
+    .hero-width{
+        width: 50%;
+    }
+    .hero-right {
+        text-align: center;
+    }
+    .hero-right h1 {
+        font-size: 3rem;
+    }
+    .hero-left {
+        text-align: center;
+        padding: 0;
+    }
+    .hero-left img {
+        width: 80%;
+    }
+
+    .lore h2 {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    .p-lore {
+        gap: 1rem;
+    }
+    .p-lore p{
+        font-size: 1rem;
+        font-weight: 350;
+        line-height: 1.2;
+    }
+}
