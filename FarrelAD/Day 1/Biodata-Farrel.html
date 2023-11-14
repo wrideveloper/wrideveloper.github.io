@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Farrel</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .logo-FAD {
+            display: flex;
+            width: 70px;
+            background-color: #241e1e;
+            padding: 20px 10px 20px 10px;
+            margin-left: 30px;
+        }
+        header {
+            display: flex;
+            background-color: #241e1e;
+            position: sticky;
+            top: 0;
+            z-index: 1;
+        }
+        header > nav li {
+            font-size: 20px;
+            padding: 10px;
+            margin: 10px 1px 10px 1px;
+            color: aqua;
+            display: flex;
+            text-decoration: none;
+        }
+        header > nav ul {
+            display: flex;
+            background-color: #241e1e;
+            align-items: center;
+        }
+        li {
+            list-style: none;
+        }
+        .contact > a:link, .contact > a:visited  {
+            text-decoration: none;
+            color: aqua;
+        }
+        header > nav > ul > li:hover {
+            cursor: pointer;
+        }
+        .gambar-pembuka {
+            position: relative;
+        }
+        .rumput-keset-cuy {
+            position: relative;
+            width: 100%;
+            border: 1px;
+        }
+        .biodata-container {
+            text-align: center;
+        }
+        .self-potrait {
+            width: 180px;
+            margin-left: 50px;
+            display: flex;
+            margin-left: 45%;
+            margin-right: 55%;
+            flex: 1;
+        }
+        #social-media {
+            text-align: center;
+        }
+        .social-media-container {
+            display: flex;
+            gap: 20px;
+            justify-content:space-evenly;
+            text-decoration: none;
+            margin: 20px 0px 0px 20px;
+        }
+        .box {
+            width: 500px;
+            height: 100px;
+            background-color: #241e1e;
+            text-align: center;
+            border-radius: 7px;
+        }
+        #logo-github {
+            width: 60px;
+            margin-top: 20px;
+        }
+        #box-github {
+            display: inline;
+        }
+        #logo-instagram {
+            width: 60px;
+            margin-top: 20px;
+        }
+        footer {
+            background-color: #241e1e;
+            margin: 0;
+        }
+        footer > p {
+            text-align: center;
+            color: yellow;
+            padding: 20px 0px 20px 0px;
+            margin: 100px 0px 0px 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img class="logo-FAD" src="assets/FAD logo white.png" alt="logo FAD">
+        <nav>
+            <ul>
+                <li class="menu">Menu</li>
+                <li class="contact"><a href="#social-media">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="gambar-pembuka">
+            <img class="rumput-keset-cuy" src="assets/rumput-dan-keset.png" alt="ini rumput dan keset">
+        </div>
+        <div class="biodata-container">
+            <h1>My Biodata</h1>
+            <hr>
+            <h1>Farrel Augusta Dinata</h1>
+            <img src="assets/Fotonya Farrel.png" class="self-potrait" alt="Self Potrait - Farrel">
+                    <nav class="biodata">
+                        <ul>
+                            <li><h2>Age : 18 years old</h2></li>
+                            <li><h2>Hobby : Simple, read and write</h2></li>
+                            <li><h2>Address : Blitar Regency, East Java, Indonesia</h2></li>
+                            <li><h2>Status : Student</h2></li>
+                            <li><h2>School : Politeknik Negeri Malang (POLINEMA)</h2></li>
+                        </ul>
+                    </nav>
+        </div>
+        <hr>
+        <h2 id="social-media">Social Media</h2>
+        <div class="social-media-container">
+            <div class="box" id="box-github">
+                <a href="https://github.com/FarrelAD">
+                    <img src="assets/Logo GitHub.png" id="logo-github" alt="Logo GitHub">
+                </a>
+            </div>
+            <div class="box" id="box-instagram">
+                <a href="https://www.instagram.com/farrel_rr/">
+                    <img src="assets/Logo Instagram.png" id="logo-instagram" alt="Logo Instagram">
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Member of WRI POLINEMA &#169 2023</p>
+    </footer>
+</body>
+</html>
