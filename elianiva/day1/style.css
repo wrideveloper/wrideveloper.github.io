@@ -22,3 +22,7 @@ a {
     color: rgb(81, 121, 185);
     text-align: center;
 }
+
+p {
+    font-size: 15px;
+}
