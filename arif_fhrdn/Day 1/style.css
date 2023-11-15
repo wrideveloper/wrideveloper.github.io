@@ -1,0 +1,21 @@
+body {
+    background-color: white;
+}
+.judul-utama {
+    display: grid;
+    justify-content: center;
+}
+
+.profil {
+    display: flex;
+    justify-content: center;
+    
+}
+.gambar {
+    display: flex;
+    justify-content: center;
+}
+.judul {
+    display: grid;
+    justify-content: center;
+}
