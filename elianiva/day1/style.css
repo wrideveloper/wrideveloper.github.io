@@ -15,4 +15,7 @@ a {
     font-size: 20px;
     border-radius: 10px;
     padding: 10px;
+    display: block;
+    margin: 10px;
+    color: rgb(81, 121, 185);
 }
