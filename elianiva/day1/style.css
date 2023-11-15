@@ -6,9 +6,10 @@ h2 {
     font-size: 18px;
 }
 body {
-    background-color: rgb(81, 121, 185);
+    background: linear-gradient(rgb(77, 120, 191), darkblue);
     font-family: 'trebuchet MS';
     color : white;
+    text-align: center;
 }
 a {
     background-color: white;
