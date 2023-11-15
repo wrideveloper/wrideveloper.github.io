@@ -1,0 +1,41 @@
+* {
+    font-family: sans-serif;
+    color: aliceblue;
+}
+body {
+    background: url('foto/bg1.jpg');
+    background-size: 100%;
+}
+.header img {
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+}
+.detail button {
+    font-size: small;
+    color: hotpink;
+    background-color: aqua;
+    padding: 20px 40px;
+    margin: 30px;
+    border: 0;
+    border-radius: 10%;
+    
+}
+.btn button {
+    font-size: small;
+    color: hotpink;
+    background-color: aqua;
+    padding: 20px 40px;
+    margin: 80px;
+    border: 0;
+    border-radius: 10%;
+}
+footer {
+    font-size: x-small;
+    color:aliceblue;
+    background-color: black;
+    padding: 10px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
