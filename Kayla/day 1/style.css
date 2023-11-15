@@ -1,0 +1,36 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-image: url("pattern.jpg");
+    background-color: rgb(0, 0, 0);
+    padding-top: 60px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+}
+h1 {
+    color: rgb(160, 115, 156);
+}
+.identity {
+    color: rgb(160, 115, 156);
+}
+p {
+    color: rgb(160, 115, 156);
+    text-align: center;
+}
+hr {
+    height: 1px;
+    background-color: rgb(160, 115, 156);
+}
+h5 {
+    text-align: center;
+    color: rgb(160, 115, 156);
+}
+.box {
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    background-color: rgb(44, 19, 19);
+}
