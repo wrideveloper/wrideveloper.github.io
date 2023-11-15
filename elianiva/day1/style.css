@@ -3,14 +3,15 @@ img {
     width: 100px;
 }
 h2 {
-    font-size: 18px;
+    font-size: 20px;
 }
 body {
-    background: linear-gradient(rgb(77, 120, 191), darkblue);
+    background: linear-gradient(rgb(127, 176, 220), darkblue);
     font-family: 'trebuchet MS';
     color : white;
     text-align: center;
 }
+
 a {
     background-color: white;
     font-size: 20px;
