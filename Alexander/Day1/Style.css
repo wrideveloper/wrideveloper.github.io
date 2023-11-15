@@ -1,0 +1,70 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.profileAlex {
+    display: block;
+    margin: 0 auto; /* Center the image */
+    max-width: 50%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.namaku {
+    color: #333;
+    margin-top: 10px;
+}
+
+.cerita-singkat {
+    color: #555;
+}
+.Aboutweb{
+    color: #555;
+}
+
+.hobby {
+    color: #333;
+    margin-top: 20px;
+}
+
+.listhobby li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.mediasosial-list {
+    color: #333;
+    margin-top: 20px;
+}
+
+.sosial-media li {
+    margin-bottom: 10px;
+}
+
+.sosial-media a {
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
