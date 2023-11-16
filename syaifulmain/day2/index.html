@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="main-container">
+        <h2 class="label-registration"><span>Re</span>gistration</h2>
+        <form action="" class="form-registration">
+            <div class="field-registration">
+                <div class="field-registration-top">
+                    <label>Full Name <br> <input type="text" id="full-name" placeholder="Enter your name" required></label>
+                    <label>Username <br> <input type="text" id="username"  placeholder="Enter your username" required></label>
+                </div>
+                <div class="field-registration-middle">
+                    <label>Email <br> <input type="email" id="email" placeholder="Enter your email" required></label>
+                    <label>Phone Number <br> <input type="number" id="phone-number" placeholder="Enter your number" required></label>
+                </div>
+                <div class="field-registration-button">
+                    <label>Password <br> <input type="password" id="password"  placeholder="Enter your password" required></label>
+                    <label>Confirm Password <br> <input type="password" id="confirm-password"  placeholder="Confirm your password" required></label>
+                </div>
+            </div>
+            <div class="field-gender">
+                <h3>Gender</h3>
+                <div class="field-gender-radio">
+                    <label><input type="radio" id="male" name="chosen" value="male" required>Mele</label>
+                    <label><input type="radio" id="female" name="chosen" value="female"  required>Female</label>
+                    <label><input type="radio" id="unknown" name="chosen" value="unknown" required>Prefer not to say</label>
+                </div>
+            </div>
+            <div>
+                <button type="submit" class="primary-button">Register</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
