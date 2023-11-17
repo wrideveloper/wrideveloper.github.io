@@ -29,5 +29,6 @@ button {
     color: white;
     font-weight: bold;
     padding: 5px 165px; background: radial-gradient(circle at top left, rgb(248, 122, 248), rgb(152, 152, 246));
+    margin: 10px 0;
     border-style: none;
 }
