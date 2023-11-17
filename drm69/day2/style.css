@@ -1,0 +1,39 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    background-image: linear-gradient(to bottom right, #0e027d, rgb(87, 73, 211), #d1cfdc);
+}
+
+.container {
+    width: 40vw;
+    height: 75vh;
+    background-color: #ffffff;
+    margin: auto;
+    table-layout: auto;
+}
+
+
+td {
+    width: 20vw;
+}
+
+table {
+    padding: 5px;
+}
+
+input {
+    margin: 5px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.register {
+    width: 30vw;
+    height: 30px;
+    background-image: linear-gradient(to bottom right, #0e027d, rgb(87, 73, 211), #d1cfdc);
+    color: #ffffff;
+    margin: 20px;
+    border: none;
+}
