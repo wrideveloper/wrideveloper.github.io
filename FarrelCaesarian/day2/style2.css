@@ -1,0 +1,39 @@
+body {
+    height: 100vh;
+    background: linear-gradient(to bottom right, rgb(122, 124, 248), rgb(152, 243, 246));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    margin-left: 17px;
+    margin-top: 8px ;
+}
+
+.container {
+    display: flex;
+}
+
+.container div {
+    margin: 0 20px;
+}
+
+.main {
+    margin: 10px 20px;
+}
+
+.box {
+    padding: 10px 10px; background-color: white; 
+    margin: 20px 20px;
+    width: 33%;
+    height: 50%;
+}
+.tombol {
+    color: white;
+    font-weight: bold;
+    padding: 5px 165px; background: radial-gradient(circle at top left, rgb(122, 223, 248), rgb(185, 152, 246));
+    margin: 10px 0;
+    border-style: none;
+}
