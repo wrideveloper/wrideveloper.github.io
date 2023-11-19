@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WRI Day 2</title>
+    <link rel="stylesheet" href="basicForm.css">
+</head>
+<body>
+    <div class = "container">
+        <h1>Registration</h1>
+        <form>
+            <div class="nama">
+            <label for="namaL">Nama Lengkap</label>
+            <input type = "text" placeholder="Enter Your Name" id="namaL"><br><br>
+            </div>
+            <div class="Umur">
+            <label for="umur">Umur</label>
+            <input type = "number" placeholder="Enter Your Age" id="umur"><br><br>
+            </div>
+            <label for="hobi" class="f">Hobi :</label><br>
+            <label for="Gamer" class="hobi">Bermain Game</label>
+            <input type = "checkbox" id="hobi">
+            <div class="Hobi2">
+            <label for="Reading" class="hobi">Membaca Komik</label>
+            <input type = "checkbox" id="Reading"><br><br><br>
+            </div>
+            <label for ="Coding" class="hobi3">Coding</label>
+            <input type = "checkbox" id="Coding"><br><br>
+            <div class="Hobi4">
+                <label for="Listening" class="hobi">Mendengarkan Musik</label>
+                <input type = "checkbox" id="Listening"><br><br><br>
+            </div>
+            <label for="email">Email</label>
+            <input type = "email" placeholder="Enter Your Email" id="email"><br><br>
+            <label for="password">Password</label>
+            <input type = "password" placeholder="Enter New Password" id="password"><br><br>
+            <div class="ConfirmP">
+            <label for="confirm">Confirm Password</label>
+            <input type = "password" placeholder="Confirm Password" id="confirm"><br><br>
+            </div>
+            <label for="gender">Jenis Kelamin</label><br>
+            <input type = "radio" name="gender" value="male"><label class="laki-laki">Laki-Laki</label> 
+            <div class="Female">
+            <input type = "radio" name="gender" value="female"><label class="perempuan">Perempuan</label><br>
+            </div>
+            <div>
+            <input type = "submit" value = "Submit">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
