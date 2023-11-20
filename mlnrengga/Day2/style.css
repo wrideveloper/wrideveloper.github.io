@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{  
+    width: 40vw;
+    height: 60vh;
+    background: white;
+    padding: 25px 30px;
+    margin: 0 28px;
+    border-radius: 25px;
+    box-shadow: 0 15px 20px #ABB2B9;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom right, #845EC2 ,#D65DB1, #845EC2);
+}
+
+h2{
+    padding-left: 180px;
+    font-size: 30px;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: solid #845EC2;
+}
+
+.content2{
+    margin-left: 300px;
+    margin-top: -59px;
+}
+
+.content2 input{
+    flex-wrap: wrap;
+    width: 95%;
+    padding: 11px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    font-size: medium;
+    margin-top: px;
+}
+
+.content2 label{
+    font-size: 15px;
+    margin: 10px;
+}
+
+.content label{
+    font-size: 15px;
+    margin: 10px;
+
+}
+
+.content input{
+    flex-wrap: wrap;
+    width: 40%;
+    padding: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+.check{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.alert{
+    margin-top: 0px;
+}
+
+.alert p{
+    font-size: 14px;
+    font-style: italic;
+    color: dimgray;
+    margin: 5px 0;
+    padding: 10px;
+}
+
+.alert a{   
+    text-decoration: none;
+}
+
+.alert a:hover{
+    text-decoration: underline;
+}
+
+.button{
+    height: 45px;
+}
+
+.button input{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    background: #D65DB1;
+}
