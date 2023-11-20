@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <div id="jam"></div>
+  
+    <script>
+      function updateJam() {
+        const jamElement = document.getElementById('jam');
+        const waktuSekarang = new Date();
+        const jam = waktuSekarang.getHours();
+        const menit = waktuSekarang.getMinutes();
+        const detik = waktuSekarang.getSeconds();
+        const jamFormat = `${jam < 10 ? '0' : ''}${jam}:${menit < 10 ? '0' : ''}${menit}:${detik < 10 ? '0' : ''}${detik}`;
+        jamElement.innerHTML = jamFormat;
+      }
+      
+      // Memperbarui jam setiap detik
+      setInterval(updateJam, 1000);
+      
+      // Memanggil fungsi updateJam untuk pertama kali
+      updateJam();
+    </script>
+    <title> Ivansyah Eka Oktaviadi Santoso </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <H1 align = "center"> Profil Ivansyah Eka O.S </H1>
+    <img src="images/Cuplikan layar 2023-11-08 203537.png" alt="">
+    <h2><ul> 
+        <li><p> Nama : Ivansyah Eka Oktaviadi Santoso </p></li>
+        <li> <p> Tempat, tanggal lahir : Surabaya, 4 Oktober 2004 </p></li>
+        <li> <p> Hobby : Bermain futsal </p></li>
+        <li> <p> Umur : 19 Tahun </p></li>
+        <li><p> Alamat : Grand Lawang Residence kecamatan Lawang Kabupaten Malang </p></li>
+    </ul> 
+    <p>Deskripsi : Lorem ipsum dolor sit amet consectetur adipisicing. <br>
+        Deleniti unde, quisquam natus commodi necessitatibus dolorem non <br> 
+        Dolores inventore velit consequuntur doloremque magnam omnis <br>
+        sed minus repudiandae a! Distinctio, aut? <br>
+    </p>
+    <li> <a href="https://github.com/I4annet/"> My Github</a></li>
+    <li> <a href="https://www.instagram.com/ivansyaheka_41/?hl=en"> My Instagram </a></li></h2>
+    <style>
+        body {
+        color:rgb(0, 0, 0) ;
+        background-color: rgb(231, 247, 0);
+        
+        } 
+        </style>
+</body>
+</html>
