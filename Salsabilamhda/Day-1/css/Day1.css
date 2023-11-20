@@ -1,0 +1,42 @@
+.baground {
+    background-image: url(../assets/baground2-day1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 670px;
+}
+.nama {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em 2em;
+    border-bottom: 3px solid rgb(8, 8, 8);
+    padding-bottom: 1em;
+}
+.biodata {
+    border: 3px solid rgb(32, 17, 0);
+    justify-content: space-between;
+    align-items: center;
+    padding-right:  1em;
+    padding-left: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+.LinkedIn {
+    cursor: pointer;
+    color: rgb(32, 17, 0);
+}
+.biodataku {
+    padding: 3em;
+    padding-left: 3em;
+    padding-right: 3em;
+    display: flex;
+    
+}
+.profile {
+    padding-left: 0.5em;
+    margin-right: 50px;
+    
+}
+.footer {
+    padding-top: 5em;
+}
