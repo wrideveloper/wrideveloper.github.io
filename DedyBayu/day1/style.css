@@ -1,0 +1,12 @@
+body {
+  background-color: rgb(198, 198, 253);
+}
+
+.profil {
+  display: block;
+  margin: 0 auto;
+  /* Center the image */
+  max-width: 25%;
+  height: auto;
+  border-radius: 50%;
+}
