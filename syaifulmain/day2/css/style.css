@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(142deg, rgba(115,182,227,1) 0%, rgba(154,91,180,1) 100%) no-repeat;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.main-container {
+    width: 710px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fefefe;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    padding: 35px 35px 60px 35px;
+}
+.label-registration {
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+.label-registration span {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+.field-registration {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.primary-button {
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(90deg, rgba(115,182,227,1) 0%, rgba(154,91,180,1) 100%) no-repeat;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    align-items: center;
+    transition-duration: 0.4s;
+}
+.primary-button:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+.field-gender h3 {
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.field-gender-radio {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+.field-registration-top, .field-registration-middle, .field-registration-button {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.field-registration input {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 5px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+/*.field-registration input:invalid {*/
+/*    border: 1px solid red;*/
+/*}*/
+.field-registration input:hover {
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+.field-registration input:focus {
+    outline: none;
+    border: 1px solid #9f9f9f;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+.field-registration label{
+    font-weight: 400;
+    width: 100%;
+    font-size: 14px;
+}
+.form-registration {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.field-gender-radio input {
+    margin-right: 10px;
+}
+.field-gender-radio input {
+    font-size: 14px;
+}
+@media screen and (max-width: 850px) {
+    .main-container {
+        width: 450px;
+    }
+    .field-gender-radio {
+        gap :50px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .main-container {
+        width: 350px;
+    }
+    .field-gender-radio {
+        flex-direction: column;
+        gap :10px;
+    }
+    .field-registration-top, .field-registration-middle, .field-registration-button {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .field-registration {
+        gap: 10px;
+    }
+    .field-gender h3 {
+        margin-bottom: 10px;
+    }
+    .form-registration {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
