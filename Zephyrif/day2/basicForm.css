@@ -1,0 +1,89 @@
+body {
+    height : 100vh;
+    width: 100vw;
+    background-image: linear-gradient(250deg, #00A4B6, #00C9A7);
+    display: flex;
+}
+
+.container {
+    border : 2px solid white;
+    border-radius : 10px;
+    background-color: white;
+    height : 70vh;
+    width : 35vw;
+    margin : auto;
+}
+
+h1 {
+    padding-left : 30px;
+}
+label {
+    display : block;
+    padding-left : 40px;
+}
+
+input {
+    width : 230px;
+    margin-left : 40px;
+    margin-top : 2px;
+    
+}
+
+input[type="checkbox"]{
+    margin-left:-70px;
+    padding-top : -1000px;
+}
+.nama{
+    margin-left : -10px;
+}
+.f{
+    padding-left:34px;
+}
+.Umur {
+ padding-left : 260px;
+ margin-top : -60px ;
+}
+
+.Hobi2 {
+    padding-left : 260px;
+    margin-top : -30px ;
+}
+.Hobi4 {
+    padding-left : 260px;
+    margin-top : -50px ;
+}
+
+.hobi{
+    padding-left:35px;
+}
+.hobi3 {
+    padding-left: 35px;
+}
+
+.ConfirmP {
+    padding-left : 260px;
+    margin-top : -60px ;
+}
+.Female {
+    padding-left : 260px;
+    margin-top : -36px ;
+}
+
+.perempuan {
+    padding-left : 120px;
+}
+
+.laki-laki {
+    padding-left : 120px;
+}
+
+input[type="submit"] {
+    width : 100px;
+    height : 30px;
+    margin-left : 250px;
+    margin-top : 5px;
+    background-color : #00A4B6;
+    color : white;
+    border : none;
+    border-radius : 10px;
+}
