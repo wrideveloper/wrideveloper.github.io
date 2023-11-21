@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+    body{
+        background: url('https://wallpaperxyz.com/wp-content/uploads/BG-Japan-Wallpaper-Full-HD-Free-Download-for-Laptop-Desktop-Macbook-0808-Wallpaperxyz.com-1.jpg') no-repeat center center fixed;
+        background-size: cover;
+    }
+    .muka img{
+        width: 130px;
+        margin-top : 100px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border-radius: 100px;
+    }
+    .title-box{
+        background : red;
+        width: 20px;
+    }
+    .box{
+        background: rgba(255, 255, 255, 0.25);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(6.5px);
+        -webkit-backdrop-filter: blur(6.5px);
+        padding: 20px;
+        border-radius: 25px;
+        width: 80%;
+        max-width: 500px;
+        margin: 0 auto;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    hr{
+        background-color:#1B5956;
+    }
+    .biodata{
+        font-size: 30px;
+        text-align: center;
+        margin-right : 10px;
+        font-family: "DM Serif Display", serif;
+    }
+    .biodata-lengkap{
+        font-size: 15px;
+        font-family: "DM Serif Display", serif;
+        
+    }
+    .social-media{
+        text-align: center;
+        margin-top: 30px;
+    }
+    .social-media .instagram {
+        width : 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+        background: rgba(255, 255, 255, 0.25);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(6.5px);
+        -webkit-backdrop-filter: blur(6.5px);
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .social-media .github{
+        width : 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+        background: rgba(255, 255, 255, 0.25);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(6.5px);
+        -webkit-backdrop-filter: blur(6.5px);
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .goku{
+        width: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
