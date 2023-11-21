@@ -1,0 +1,89 @@
+.badan {
+    background-color: rgb(59, 59, 56);
+}
+.dataDiri {
+    background-color: rgb(49, 76, 99);
+    color: aliceblue;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+p {
+    color: aliceblue;
+}
+
+.test {
+    color: rgb(82, 214, 219);
+}
+
+.div1 {
+    background-color: rgb(68, 103, 143);
+    width: 60px;
+    height: 60px;
+    color: aliceblue;
+    display: block;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    padding: 1px;
+    text-align: center;
+}
+
+.div2 {
+    background-color:rgb(29, 107, 107);
+    width: 60px;
+    height: 60px;
+    color: aliceblue;
+    padding: 1px;
+    text-align: center;
+    padding-top: 2px;
+    margin-bottom: 30px;
+}
+
+span {
+    background-color: aliceblue;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.sp1 {
+    background-color: chocolate;
+}
+
+.sp2 {
+    background-color: burlywood;
+}
+
+.kotak {
+    background-color:rgb(99, 221, 221);
+    display: block;
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+    border-radius: 10%;
+}
+
+.satu {
+    width: 20px;
+    height: 20px;
+    background-color: crimson;
+    position: sticky;
+    right: -20px;
+    border-radius: 30px;
+}
+
+.dua {
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    position: relative;
+    right: -20px;
+
+}
+
+.triangle {
+    margin-top: 30px;
+    width: 0px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid gainsboro; 
+}
