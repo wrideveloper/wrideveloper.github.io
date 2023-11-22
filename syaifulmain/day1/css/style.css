@@ -61,6 +61,7 @@ body {
     background-position: center;
     padding: 2rem;
     background-repeat: no-repeat;
+
 }
 .lore {
     width: 100%;
@@ -90,6 +91,10 @@ body {
     font-weight: 400;
     margin-bottom: 1rem;
     line-height: 1.5;
+}
+
+.hero-width{
+    width: 35%;
 }
 @media screen and (max-width: 1200px) {
     .container {

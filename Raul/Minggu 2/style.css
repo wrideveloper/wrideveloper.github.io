@@ -1,0 +1,103 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    background-color: blanchedalmond;
+
+
+}
+
+h3 {
+    color: white;
+    font-size: 15px;
+
+}
+
+.isi {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;    
+}
+
+.input {
+    padding: 10px;
+    width: 205px;
+    border-radius: 5px;
+    border: 0px;
+    margin: auto 25px;
+    border: 2px solid;
+}
+
+.input:focus{
+    outline: none;
+    border: 2px solid rgb(31, 176, 201);
+}
+
+::placeholder{
+    color: grey;
+}
+
+
+
+.form {
+    display: block;
+    background-color: rgb(123, 168, 168);
+    border-radius: 20px;
+    height: 80vh;
+    min-height: fit-content;
+    width: 20vw;
+    min-width: fit-content;
+    margin: auto;
+    border: 2px solid;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+.checkbox{
+    width: 225px;
+    margin: 25px auto;
+    display: flex;
+    align-items:center;
+    background-color: blue;
+    height: 0px;
+}
+
+.paragraf{
+    color: white;
+    font-size: 12px;
+    
+}
+
+.register{
+    display: flex;
+    background-color: green;
+    width: 100px;
+    height: 30px;
+    margin: auto;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.register h3{
+    padding: 15px;
+}
+
+.register h3:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.register:hover{
+    background-color: greenyellow;
+}

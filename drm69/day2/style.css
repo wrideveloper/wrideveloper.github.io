@@ -1,0 +1,70 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-image: linear-gradient(to bottom right, #0e027d, rgb(87, 73, 211), #d1cfdc);
+}
+
+.container {
+    width: 40vw;
+    height: 70vh;
+    background-color: #ffffff;
+    margin: auto;
+    table-layout: auto;
+}
+
+.title {
+    margin: 10px;
+}
+
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+hr {
+    border: 2px solid #483bd7;
+    border-radius: 5px;
+    margin: 10px;
+    width: 30px;
+}
+
+td {
+    width: 20vw;
+}
+
+table {
+    padding: 5px;
+}
+
+input {
+    margin: 5px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.gender {
+    position: absolute;
+}
+
+.input-gender {
+    padding: 3px;
+}
+
+.text-gender {
+    font-size: 13px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.register {
+    width: 30vw;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    background-image: linear-gradient(to bottom right, #0e027d, rgb(87, 73, 211), #d1cfdc);
+    color: #ffffff;
+    margin: 20px;
+    border: none;
+}
