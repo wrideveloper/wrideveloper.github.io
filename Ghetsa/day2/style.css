@@ -1,0 +1,41 @@
+.container {
+    width: 50vw;
+    height: 50vh;
+    background-color: white;
+    margin: auto;
+    border-radius: 3%;
+}
+
+body{
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(84, 134, 175);
+    display: flex;
+}
+
+.header{
+    margin: 5% 0% 0% 5%;
+    font-size: 12px;
+    padding: 2px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nama{
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+}
+
+#input{
+    margin: 5%;
+    font-size: 12px;
+    padding: 2px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.form{
+    margin: 5%;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+}

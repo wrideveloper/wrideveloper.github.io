@@ -1,0 +1,66 @@
+.bg-gradient-primary {
+  background-color: #3d3f60;
+  background-image: linear-gradient(180deg, #817d98 10%, #3c4361 100%);
+  background-size: cover;
+}
+
+.btn-regis {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5rem;
+  padding: 1rem;
+  font-family: Alef, sans-serif;
+  height: 3rem;
+  margin: auto;
+  background: #5d5b9d;
+}
+
+h6, .h6 {
+  font-size: 1rem;
+}
+
+form.user .form-control-user {
+  font-size: .9rem;
+  border-radius: 5rem;
+  padding: 1rem;
+  font-family: Alef, sans-serif;
+  height: 3rem;
+  margin: auto;
+}
+
+.justify-content-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form.user .btn-user {
+  font-size: .8rem;
+  border-radius: 10rem;
+  padding: .75rem 1rem;
+  background-image: linear-gradient(180deg, #9687ed 10%, #5d5b9d 100%);
+  font-weight: bolder;
+  font-family: Actor, sans-serif;
+}
+
+#h1 {
+  font-weight: bolder;
+  font-size: 31px;
+  font-family: Alef, sans-serif;
+  text-align: left;
+  margin-bottom: 15%;
+}
+
+.cb-hobi {
+  padding: 0.5rem;
+}
+
+.credit {
+  font-size: 15px;
+  text-align: center;
+  color: rgb(32,25,51);
+}
+
