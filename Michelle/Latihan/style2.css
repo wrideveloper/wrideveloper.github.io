@@ -1,0 +1,43 @@
+body {
+    height: 100vh;
+    background: linear-gradient(to bottom right, rgb(248, 122, 248), rgb(152, 152, 246));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container div {
+    margin: 0 20px;
+}
+
+button {
+    color: white;
+    font-weight: bold;
+    padding: 8px 130px; background: radial-gradient(circle at top left, rgb(248, 122, 248), rgb(152, 152, 246));
+    margin: 20px 0;
+    border-style: none;
+}
+
+.main {
+    margin: 20px 20px;
+}
+
+.box {
+    padding: 30px 30px; background-color: white; 
+    margin: 20px 20px;
+    width: 30%;
+    height: 58%;
+}
+
+td {
+ width: 20%;
+ height: 25px;
+}
+
+h1 {
+    font-weight: bolder;
+    background: -webkit-linear-gradient(to right, rgb(248, 122, 248), rgb(152, 152, 246));
+    background: linear-gradient(to right, rgb(248, 122, 248), rgb(152, 152, 246));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
