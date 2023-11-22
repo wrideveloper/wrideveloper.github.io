@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+body {
+  font-family: "DM Serif Display", serif;
+  background: url("https://e1.pxfuel.com/desktop-wallpaper/72/488/desktop-wallpaper-japan-anime-scenery-green-anime-scenery.jpg ") no-repeat center center fixed;
+  background-size: cover;
+}
+.box {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  padding: 20px;
+  border-radius: 25px;
+  width: 1000px;
+  height: 85%;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-bottom: 80px;
+}
+.box-right {
+  background: #cbff5c;
+  padding: 20px;
+  border-radius: 25px;
+  width: 600px;
+  height: 103%;
+  margin: 0 auto;
+  justify-content: right;
+  position: relative;
+  top: 50%;
+  left: 32%;
+  transform: translate(-50%, -50%);
+  float: right;
+}
+.biodata {
+  font-size: 35px;
+  text-align: left;
+  margin-bottom: 30px;
+  font-weight: 800;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.masuk {
+  font-size: 16px;
+  text-align: right;
+  margin-bottom: 30px;
+  font-weight: 800;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.login {
+  text-decoration: none;
+  color: black;
+}
+.login:hover {
+  text-decoration: none;
+  color: #000;
+}
+.inside {
+  padding: 40px;
+}
+.field {
+  display: grid;
+  gap: 10px;
+}
+.input-1,
+.input-2,
+.input-3,
+.input-4 {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.field input {
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 5px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input:focus {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+  outline: none;
+}
+.field .input-2 .campus {
+  width: 465px;
+}
+label {
+  letter-spacing: 1px;
+  font-size: 17px;
+  font-weight: 400px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.form-check {
+  margin: 5px 0px 0px 5px;
+}
+.button {
+  margin-top: 10px;
+  width: 465px;
+  font-size: 20px;
+  color: #000;
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px 0px 5px 0px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: black;
+  color: #cbff5c;
+}
+.box-left {
+  background: url("https://images7.alphacoders.com/895/895992.jpg") no-repeat center center fixed;
+  padding: 20px;
+  border-radius: 25px;
+  width: 360px;
+  height: 103%;
+  margin: 0 auto;
+  justify-content: right;
+  position: relative;
+  top: 50%;
+  left: 18%;
+  transform: translate(-50%, -50%);
+  float: left;
+}
+.nama-saya {
+  margin-top: 5px;
+  background: #cbff5c;
+  padding: 5px;
+  font-size: 20px;
+  width: 100px;
+  height: auto;
+  text-align: center;
+  margin-left: 5px;
+}
+ul {
+  margin-top: 5px;
+  padding: 10px;
+  font-size: 15px;
+  width: 100px;
+  height: auto;
+  margin: 0 auto;
+  justify-content: right;
+  position: relative;
+  top: 80%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin-left: 10px;
+  list-style-type: none;
+}
+li .social {
+  color: black;
+  text-decoration: none;
+  margin-top: 200px;
+}
+li .social .back {
+  padding: 5px;
+  width: 125px;
+  border-radius: 7px;
+  display: flex;
+  transition: ease 0.4s;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+li .social .back:hover {
+  background: #cbff5c;
+}
+li .social .svg {
+  width: 15px;
+  margin-left: 1.7px;
+  margin-bottom: 1.1px;
+}
+li .social p {
+  width: 15px;
+  margin-left: 10px;
+  margin-bottom: 1.1px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+}
+.form-check-input {
+  cursor: pointer;
+}
+.top {
+  display: flex;
+  gap: 90px;
+}
+.referensi {
+  background-color: #cbff5c;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  width: 115px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.ref {
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+}
+.ref:hover {
+  text-decoration: none;
+  color: black;
+}
