@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #d8bfd8; /* lavenderblush, or any color you prefer */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    width: 50vw;
+    background-color: #c0c0c0; /* silver, or any color you prefer */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .register {
+    font-size: 1.5em; /* or use a specific size like 18px */
+  }
+  
+  .isiregister {
+    margin-top: 15px;
+  }
+  
+  .yourname,
+  .email,
+  .phone,
+  .kelamin,
+  .buttonregister {
+    margin-bottom: 15px;
+  }
+  
+  .youremailregi {
+    margin-bottom: 5px;
+  }
+  
+  input,
+  button {
+    padding: 8px;
+    margin-top: 5px;
+  }
+  
+  button {
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  

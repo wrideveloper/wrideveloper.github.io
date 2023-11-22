@@ -1,0 +1,16 @@
+.box{
+    text-align: center;
+    /* background-color: red; */
+    margin : 50px 0 50px 0;
+    padding-top: 2%;
+    margin-left: 25%;
+    margin-right:25% ;
+    padding-bottom: 2%;
+    font-family: 'Poppins', sans-serif;
+}
+.bio{
+    /* background-color: blue; */
+    padding-left: 28%;
+    font-size: 12px;
+    text-align: left;
+}

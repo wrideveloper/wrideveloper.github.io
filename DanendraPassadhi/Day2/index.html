@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>DanendraPassadhi</title>
+    <link
+      rel="shortcut icon"
+      href="https://demir.av.tr/wp-content/uploads/2022/09/Asset-2@4x.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <style>
+      body {
+        background: url("background.png"); /* Ganti dengan URL atau path gambar background yang diinginkan */
+        background-size: cover;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        color: rgb(255, 255, 255);
+        text-shadow: 0px 0px 10px white;
+      }
+      .register {
+        position: absolute;
+        top: 50%;   
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .register-form {
+        background-color: rgba(15, 15, 26, 0.7);
+        padding: 2rem;
+        border-radius: 9px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      .register-form h2 {
+        text-align: center;
+        font-weight: 800;
+      }
+      .form {
+        display: flex;
+        flex-direction: column;
+      }
+      .form label {
+        margin-bottom: 8px;
+        font-weight: bold;
+      }
+      .form input {
+        padding: 8px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      .checkbox {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+
+      .checkbox label {
+        margin-right: 5px;
+      }
+
+      .checkbox input {
+        margin-right: 15px;
+      }
+      .submit-button {
+        background-color: #06051f;
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px white;
+        width: 20rem;
+        margin: auto;
+      }
+    </style>
+
+    <div class="register">
+      <div class="register-form">
+        <h2>REGISTRATION</h2>
+        <br />
+
+        <form action="#" class="form">
+          <label for="nama">Name</label>
+          <input
+            type="text"
+            id="nama"
+            name="nama"
+            placeholder="Enter your name"
+            required
+          />
+
+          <label for="age">Age</label>
+          <input
+            type="number"
+            id="age"
+            name="age"
+            placeholder="Enter your age"
+            required
+          />
+
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+          />
+
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Enter your password"
+            required
+          />
+
+          <label for="confirm-password">Confirm Password</label>
+          <input
+            type="password"
+            id="confirm-password"
+            name="confirm-password"
+            placeholder="Confirm your password"
+            required
+          />
+
+          <label for="hobby">Hobby</label>
+          <div class="checkbox">
+            <label for="football">Football</label>
+            <input
+              type="checkbox"
+              id="football"
+              name="hobby"
+              value="football"
+            />
+
+            <label for="reading">Reading</label>
+            <input type="checkbox" id="reading" name="hobby" value="reading" />
+
+            <label for="game">Game</label>
+            <input type="checkbox" id="game" name="hobby" value="game" />
+
+            <label for="badminton">Badminton</label>
+            <input
+              type="checkbox"
+              id="badminton"
+              name="hobby"
+              value="badminton"
+            />
+
+            <label for="other">Other</label>
+            <input type="checkbox" id="other" name="hobby" value="other" />    
+        </div>
+        <input type="submit" value="Submit" class="submit-button" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

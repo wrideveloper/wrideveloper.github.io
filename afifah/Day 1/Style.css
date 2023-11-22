@@ -1,0 +1,68 @@
+/* desain dasar web*/
+* {
+    margin: 0; /*dimaksudkan menghilangkan margin default dari browser*/
+    padding: 0; /*dimaksudkan untuk menghilangkan padding default dari browser*/
+    box-sizing: border-box; /*dimaksudkan untuk konsisten dalam dimensi elemen, terutama saat menetapkan lebar dan tinggi*/
+    font-family: 'poppins', sans-serif;
+}
+
+
+.container  {
+    width: 100%; /*mengambil lebar max elemen asli*/
+    height:  100vh; /* vh = view height, membuat elemen fleksibel sesuai layar pengguna*/
+    background-image: url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex; /* menggunakan tata letak flexbox untuk mengelola tata letak elemen dan anak anaknya supaya lebih responsif*/
+    align-items: center;/* dalam flexbox, ini mengatur penempatan elemen di sepanjang sumbu lintang vertikal*/
+    justify-content: center;/* dalam flexbox, ini mengatur penempatan elemen sumbu utama (horizontal)*/
+}
+
+/*elemen td mengatur kelurusan teks*/
+td.aspek {
+    display: flex;
+    align-items: center;
+}
+
+td:nth-child(2) {
+    flex: 1; /* membuat elemen fleksibel dan bisa menyesuaikan diri sesuai flekxbox*/
+    text-align: left; /*membuat  teks rata kiri dan lurus*/
+}
+
+/* desain untuk kartu */
+.card {
+    width: 90%;
+    max-width: 440px; /*lebar max kartu 440px*/
+    color: #ffff;
+    text-align: center; /* mengatur semua elemen berada di tengah*/
+    padding: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.2); /* background transparan*/
+    border-radius: 16px; /*membuat sudut kartu melengkung*/
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 1); /* menambahkan bayangan pada elemen horizon = 0, vertikal 4 px, blur 30px dengan warna hitam.*/
+    backdrop-filter: blur(5px);/*latar belakang kartu menjadi blur*/
+}
+
+.card img {
+    width: 140px;
+    border-radius: 50%; /* memberikan gambar tampilan lingkaran*/
+}
+
+.card h2 {
+    font-size: 40px; /*ukuran font*/
+    font-weight: 600;/*ketebalan font*/
+    margin-top: 20px;/*menciptakan jarah diatas judul*/
+}
+
+.card table {
+    font-size: 18px;
+    margin: 10px auto; 
+    max-width: 330px;
+}
+
+
+.card .links img{
+    width: 40px;
+    border-radius: 50%;
+    margin: 10px 5px;/*margin atas bawah*/
+}
