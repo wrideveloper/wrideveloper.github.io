@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(wallpaperflare.com_wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    padding: 7%;
+    margin: auto;
+    font-size: 25px;
+    font-weight: bolder;
+    background: -webkit-linear-gradient(to right, rgb(158, 29, 29), rgb(28, 28, 209));
+    background: linear-gradient(to right, rgb(158, 29, 29), rgb(28, 28, 209));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media screen and (min-width: 750px) {
+    h1 {
+        font-size: 35px;
+    }
+}
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding: 30px 20px;
+        background-color: rgba(0, 0, 0, 8);
+        box-shadow: 0 0 10px rgba(255,255,255,.3);
+        border-radius: 10px;
+    }
+
+    .wraper {
+        display: flex;
+        margin: auto;
+        padding: 7%;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 400px;
+        flex-wrap: wrap;
+        color: white;
+    }
+
+    .wraper div {
+        display: flex;
+        flex-direction: column;
+        border: none;
+        background-color: transparent;
+        border-bottom: 2px solid rgb(215, 57, 57);
+        flex-basis: 45%;
+    }
+
+    .wraper input {
+        padding: 5px;
+        background-color: white;
+        opacity: 65%;
+        padding: 0 0;
+        color: black;
+    }
+
+    .wraper2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 60vw;
+        flex-wrap: wrap;
+        padding-bottom: 20px;
+        color: white;
+    }
+
+    .wraper2 div {
+        flex-basis: 95%;
+    }
+
+    button {
+        display: block;
+        color: white;
+        font-weight: bold;
+        padding: 3px 130px;
+        background: radial-gradient(circle at top left, rgb(158, 29, 29), rgb(28, 28, 209));
+        margin: 0 auto;
+        border-style: none;
+    }
+
+    .heading2 {
+        padding-left: 20px;
+        color: white;
+    }
+
+    .d-block {
+        display: block;
+        margin-top: 0px;
+    }
