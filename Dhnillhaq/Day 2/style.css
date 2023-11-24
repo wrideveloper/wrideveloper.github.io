@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    color: #105789;
+    background: url(bg.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(KlavikaMedium-TF.otf);
+}
+
+nav {
+    background-color: #1e1f26;
+    display: flex;
+    font-weight: 700;
+    padding: 8px;
+    border-bottom: #1e59d1 4px solid;
+    flex-wrap: wrap;
+}
+.link {
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.judul {
+    color: #ffffff;
+    position: relative;
+    font-weight: 100;
+    font-family: myFirstFont;
+    font-size: 1.5rem;
+    -webkit-text-fill-color: #ffffff;
+    -webkit-text-stroke: 0.7px #1e59d1;
+}
+
+section {
+    margin: 12px;
+    padding-left: 100px;
+    padding-right: 100px;
+    /* background-color: #1e1f26; */
+    background-color: #ffffff; 
+    border-radius: 26px;
+    width: fit-content;
+    height: 35.5rem;
+    border: #000000 solid 3px;
+    font-family: myFirstFont;
+}
+
+div {
+    margin: 6px;
+}
+
+.name {
+    width: 7rem;
+    height: 2rem;
+    margin: 0.3rem;
+    border-radius: 3px;
+}
+
+.input {
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    height: 2rem;
+    flex-wrap: wrap;
+}
+
+.submit {
+    background-color: #1e59d1;
+    width: 14rem;
+    height: 2rem;
+    border-radius: 4%;
+    color: #ffffff;
+    font-family: MyFirstFont;
+    font-weight: 300;
+    letter-spacing: 0.07rem;
+}
+
+.submit:hover {
+    background-color: #1e1f26;
+    transition: cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+footer {
+    background-color: #1e1f26;
+    color: white;
+    height: 5.1rem;
+    border-top: #1e59d1 4px solid;   
+}
+
+h2 {
+    border: 2px solid n #ffffff;
+}
