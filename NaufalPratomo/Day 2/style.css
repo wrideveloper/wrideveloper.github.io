@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+}
+div{
+    background-color:sandybrown;
+    width: 60% ;
+    padding: 17px;
+    border-radius: 5%;
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+}
